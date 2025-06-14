@@ -767,18 +767,20 @@ template {
 }
 
 .card {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .popup__content {
   max-width: 430px;
   width: 100%;
-  min-height: 330px;
+ 
   background-color: #fff;
   border-radius: 10px;
   position: relative;
